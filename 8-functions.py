@@ -1,4 +1,6 @@
 def greetings(name, numb):
+# contoh function
+
     print('Welcome to Mobillejeng',name+', Hari ini adalah hari ke-'+str(numb)+'mu Disini')
     print('Welcome '+name[1])
 
