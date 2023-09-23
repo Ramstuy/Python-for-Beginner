@@ -1,5 +1,5 @@
 def greetings(name, numb):
-# contoh function
+# function ialah sekumpulan kode yang melakukan tugas tertentu
 # yang di dalam kurung itu parameter
 
     print('Welcome to Mobillejeng',name+', Hari ini adalah hari ke-'+str(numb)+'mu Disini')

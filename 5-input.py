@@ -6,6 +6,9 @@ age = int(input('Input age: '))
 
 print('Hello',name+', you are',age,'years old')
 
+# Contoh penerapan input dan replace input
+# =================================================================
+
 sentc = input('enter yout sentences: ')
 print('your sentece is '+sentc)
 

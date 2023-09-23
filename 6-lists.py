@@ -31,6 +31,8 @@ listry = list(('Nepal', 10, True))
 print(listry)
 # Type nilai dalam list dapat beragam
 
+# =================================================================
+
 list1 = [3, 4, 5, 1, 2]
 list2 = ['', 'Grape', 'Mango', 'Orange']
 
@@ -39,7 +41,9 @@ inpu = input('Enter to list: ')
 list2[0] = inpu
 print(list2[0],'is inserted into the list')
 print(list2)
-# Bebrapa line diatas adalah contoh code cara user menginput value manual ke dalam list
+
+# =================================================================
+# Beberapa line diatas adalah contoh code cara user menginput value manual ke dalam list
 
 list1.extend(list2)
 # Menggabungkan value dari list 1 dan list 2 dalam 1 list
