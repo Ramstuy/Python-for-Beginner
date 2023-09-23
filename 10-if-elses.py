@@ -56,5 +56,23 @@ elif opr == '*':
     print(num1 * num2)
 else:
     print('Invalid operation')
-    
+
+# =================================================================
+# Contoh code simple sign-in dan sign-up sistem menggunakan if-else
+
+print('Create account now')
+username = input('Enter username: ')
+password = input('Enter password: ')
+
+print('Your account has been created')
+print('Login now!')
+
+username2 = input('Enter username: ')
+password2 = input('Enter password: ')
+
+if username == username2 and password == password2:
+    print('Login successful')
+else:
+    print('Login failed')
+
 # =================================================================
