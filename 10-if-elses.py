@@ -11,8 +11,8 @@ else:
 # else = jikalau tidak
     print('Unknown entity')
 
-# Berikut ini beberapa contoh code penggunakan if-else
 # =================================================================
+# Berikut ini beberapa contoh code penggunakan if-else
 
 value = int(input('Input value: '))
 
@@ -39,4 +39,22 @@ if num%2 == 0:
 else:
     print(num,'is odd')
 
+# =================================================================
+# Contoh code basic calculator menggunakan if-else
+
+num1 = int(input('Enter the 1st number: '))
+num2 = int(input('Enter the 2nd number: '))
+opr = input('Enter Operation: ')
+
+if opr == '+':
+    print(num1 + num2)
+elif opr == '-':
+    print(num1 - num2)
+elif opr == '/':
+    print(num1 / num2)
+elif opr == '*':
+    print(num1 * num2)
+else:
+    print('Invalid operation')
+    
 # =================================================================
